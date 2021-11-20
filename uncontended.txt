@@ -5,7 +5,7 @@ Object  file uncontended.o at $0000: Z80RMF12
   Section rodata_compiler: 267 bytes
   Section bss_compiler: 0 bytes
   Section IM2_VECTOR_PLACEMENT: 325 bytes
-  Section code_user: 152 bytes
+  Section code_user: 150 bytes
   Section rodata_user: 1 bytes
   Section smc_user: 0 bytes
   Section data_user: 0 bytes
@@ -26,12 +26,12 @@ Object  file uncontended.o at $0000: Z80RMF12
     G A $002D NOP_OP (section IM2_VECTOR_PLACEMENT) (file im2.asm:68)
     G A $0043 _IM2_VECTOR (section IM2_VECTOR_PLACEMENT) (file im2.asm:100)
     G A $0000 _dzx0_turbo (section code_user) (file uncontended.asm:30)
-    G A $0087 _border_Change_IM2 (section code_user) (file uncontended.asm:129)
-    G A $0094 _border_Change_uncontended (section code_user) (file uncontended.asm:143)
-    G A $0000 _xyzzy2 (section rodata_user) (file uncontended.asm:153)
-    G A $0000 _zx0_source (section bss_user) (file uncontended.asm:169)
-    G A $0002 _zx0_destination (section bss_user) (file uncontended.asm:173)
-    G A $0004 _ada (section bss_user) (file uncontended.asm:178)
+    G A $0085 _border_Change_IM2 (section code_user) (file uncontended.asm:126)
+    G A $0092 _border_Change_uncontended (section code_user) (file uncontended.asm:140)
+    G A $0000 _xyzzy2 (section rodata_user) (file uncontended.asm:150)
+    G A $0000 _zx0_source (section bss_user) (file uncontended.asm:166)
+    G A $0002 _zx0_destination (section bss_user) (file uncontended.asm:170)
+    G A $0004 _ada (section bss_user) (file uncontended.asm:175)
   Externs:
     U         l_gint
     U         l_mult

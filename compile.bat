@@ -2,15 +2,9 @@ SET PATH=c:\z88dk199c;c:\z88dk199c\bin;c:\z88dk199c\lib\;c:\z88dk199c\lib\clibs;
 
 cls
 
-rem new
-call bank_temp.bat
-
-
-
 cd utils
     copy "bas2tap.exe" "..\magic"
     copy "loader.bas" "..\magic"
-
     call bankloader.bat
 cd ..
 
@@ -49,6 +43,27 @@ cd RAM0
 	move "ram0.txt" "..\"
 cd ..
 
+cd RAM1
+    call ram1.bat
+    move "ram1.txt" "..\"
+cd ..
+
+cd RAM3
+    call ram3.bat
+    move "ram3.txt" "..\"
+cd ..
+
+cd RAM4
+    call ram4.bat
+    move "ram4.txt" "..\"
+cd ..
+
+cd RAM6
+    call ram6.bat
+    move "ram6.txt" "..\"
+cd ..
+
+
 cd UNCONTENDED
 	call uncontended.bat
 	move "uncontended.txt" "..\"
@@ -58,6 +73,10 @@ echo on
 
 move "contended.o" "OBJECTS\"
 move "ram0.o" "OBJECTS\"
+move "ram1.o" "OBJECTS\"
+move "ram3.o" "OBJECTS\"
+move "ram4.o" "OBJECTS\"
+move "ram6.o" "OBJECTS\"
 move "uncontended.o" "OBJECTS\"
 
 cd OBJECTS
